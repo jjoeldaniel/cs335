@@ -20,7 +20,14 @@ def left_to_right(disks: list[int]) -> None:
 
 
 print("Left to Right Algorithm")
+print("===================")
 disks = [1, 0, 1, 0, 1, 0, 1, 0]
+
+print("Before")
 print(disks)
+print()
+
 left_to_right(disks)
+
+print("After")
 print(disks)

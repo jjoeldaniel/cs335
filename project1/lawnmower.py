@@ -30,7 +30,14 @@ def lawnmower(disks: list[int]) -> None:
 
 
 print("Lawnmower Algorithm")
+print("===================")
 disks = [1, 0, 1, 0, 1, 0, 1, 0]
+
+print("Before")
 print(disks)
+print()
+
 lawnmower(disks)
+
+print("After")
 print(disks)
