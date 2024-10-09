@@ -1,0 +1,22 @@
+Function left_to_right(disks):
+    n = length of disks divided by 2
+
+    For each pass from 0 to n-1:
+        For i from 0 to (2 * n - 2):
+            If disks[i] is 1 and disks[i + 1] is 0:
+                Swap disks[i] and disks[i + 1]
+End Function
+
+Function lawnmower(disks):
+    n = length of disks divided by 2
+
+    For each pass from 0 to n-1:
+        If pass is even:
+            For i from 0 to (2 * n - 2):
+                If disks[i] is 1 and disks[i + 1] is 0:
+                    Swap disks[i] and disks[i + 1]
+        Else:
+            For i from (2 * n - 1) down to 1:
+                If disks[i] is 0 and disks[i - 1] is 1:
+                    Swap disks[i] and disks[i - 1]
+End Function
